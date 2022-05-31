@@ -1,0 +1,9 @@
+div {
+    margin: 20px;
+    border: 1px solid magenta;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
