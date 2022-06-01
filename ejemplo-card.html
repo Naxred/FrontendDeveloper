@@ -1,0 +1,102 @@
+<htmllang="en">
+<head>
+    <metacharset="UTF-8">
+    <metahttp-equiv="X-UA-Compatible"content="IE=edge">
+    <metaname="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Mi primera tarjeta</title>
+    <style>
+
+        body{
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .card {
+            width: 300px;
+            height: 500px;
+            background: whitesmoke;
+            border-radius: 3rem;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .background {
+            width: 100%;
+            height: 300px;
+            opacity: 0.9;
+            display: flex;
+            flex-direction: column;
+        }
+        .avatar {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -5rem;
+        }
+        .avatar img {
+
+            border-radius: 100%;
+            border: 3px solid white;
+            width: 50%;
+        }
+        .infopersonal {
+            font-size: 17px;
+            font-weight: 700;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: -5rem;
+        }
+        .infopersonal p{
+            margin: 0;
+            padding: 0;
+        }
+        .infopersonal p:nth-child(2){
+            font-size: 1rem
+        }
+        .infopersonal p:nth-child(3){
+            margin: 20px;
+            padding: 10px;
+            font-size: 1rem
+        }
+        .socialmedia {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            bottom: 2em;
+        }
+        .socialmedia img{
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            height: 2em;
+            padding: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+
+        <div class="background">
+            <img src="https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg"alt="background">
+        </div>
+
+        <div class="avatar">
+            <img src="images/mi-foto.jpg"alt="">
+        </div>
+
+        <div class="infopersonal">
+            <p>Isaac Reyna</p>
+            <p> Desarrollador Jr 💻</p>
+            <p>Mexico </p>
+        </div>
+
+        <div class="socialmedia">
+            <a href=""><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-128.png"alt="twitter"></a>
+            <a href=""><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-128.png"alt="linkedin"></a>
+            <a href=""><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-128.png"alt="Instagram"></a>
+        </div>
+    </div>
+</body>
+</html>

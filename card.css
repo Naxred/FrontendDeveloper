@@ -1,0 +1,78 @@
+.card {
+    width: 300px;
+    height: 500px;
+    background: whitesmoke;
+    border-radius: 3rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.background {
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10rem;
+    margin: 0px;
+}
+.foto img {
+
+    border-radius: 100px;
+    height: 150px;
+    border: 3px solid white;
+    width: 50%;
+}
+
+.info-personal {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-personal p{
+    margin: 0px;
+}
+.info-personal p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bolder ;
+}
+
+.info-personal p:nth-child(2) {
+    font-size: 15px;
+}
+
+.contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.contacto img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.contacto p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto > img p{
+    margin: 5px;
+}
